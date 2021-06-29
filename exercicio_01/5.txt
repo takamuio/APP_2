@@ -1,0 +1,15 @@
+// compare os nomes de pessoas e retorne o texto:É a mesma pessoa,
+// do contrário, retorne o texto: Os nomes não conferem;
+
+void main(){
+  String nome1 = "gustavo";
+  String nome2 = "gabriela";
+  
+  if(nome1 == nome2){
+    print("É a mesma pessoa !");
+    } else{
+    print("Os nomes não conferem !");
+  }
+
+   
+}

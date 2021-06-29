@@ -1,0 +1,14 @@
+// recebe o nome, sobre nome, idade e endereço.
+// Estes dados precisam ser impressos na tela
+
+void main(){
+  var nome = "Gustavo";  
+  dynamic sobreNome = "Tavares"; 
+  int idade = 29; 
+  String endereco = "Canoas, Olaria"; 
+
+  print(nome);
+  print(sobreNome);
+  print(idade);
+  print(endereco);
+}

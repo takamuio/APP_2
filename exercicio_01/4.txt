@@ -1,0 +1,9 @@
+// calcule e mostre a área de um quadrado
+
+void main(){
+  double lado = 12;    
+  
+  double quadrado = lado * lado;   
+
+  print(quadrado);  
+}

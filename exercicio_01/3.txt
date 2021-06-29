@@ -1,0 +1,11 @@
+// Faça um programa que calcule e mostre a área de um trapézio.
+// Sabe-se que: Área = ((base maior + base menor) * altura) /2;
+
+void main(){
+  double baseMaior = 34.54;    
+  double baseMenor = 21.37;
+  double altura = 12;
+  double trapezio = ((baseMaior + baseMenor) * altura) / 2;
+   
+
+  print(trapezio);

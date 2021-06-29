@@ -1,0 +1,13 @@
+//valor da entrada de uma sessão de cinema
+// e depois multiplicado por 4 pessoas. 
+// O programa deverá imprimir na tela estas informações;
+
+void main(){
+  double valor = 34.54;  
+  int multiplicador = 4; 
+  double resultado = valor * multiplicador;
+   
+
+  print(resultado);
+  
+}
