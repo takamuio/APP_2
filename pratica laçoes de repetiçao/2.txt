@@ -1,0 +1,12 @@
+//   Crie um programa que leia uma lista com 10 índices, imprima na tela todos os números e retorne o maior deles.
+
+void main(){  
+  
+  List<int> numeros = [22, 2, 7, 50, 5, 3, 11, 8, 15, 1];
+  
+  numeros.sort();
+  
+  print(numeros[9]);
+    
+}
+
