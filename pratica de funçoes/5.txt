@@ -1,0 +1,15 @@
+// 5. Faça uma função que leia um número não determinado de valores positivos e retorna a média aritmética dos mesmos.
+
+void main(){
+  
+  double n1 = 10, n2 = 11, n3 = -11, n4 = 5;
+  
+  print(mediaLista(n1, n2, n3, n4));
+  
+}
+
+mediaLista (double n1, n2, n3, n4){ 
+  double media = (n1 + n2 + n3 + n4) / 4; 
+  
+  return media;
+}

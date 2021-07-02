@@ -1,0 +1,30 @@
+//   Crie uma calculadora utilizando funções (livre).
+
+void main(){  
+  
+  double a = 10;
+  double b = 5;
+  String operador = '-'; 
+  
+  print(calculadora(operador, a, b));
+}
+
+calculadora(operador, a, b){
+switch(operador)
+  {
+    case '+':
+      return (a + b);      
+      
+    case '-':
+      return (a - b);      
+      
+    case '/':
+      return (a / b);      
+      
+    case '*':
+      return (a * b);      
+      
+    default:
+      print('Sem cálculo!');
+  }
+}

@@ -1,0 +1,34 @@
+// 1. Escreva um procedimento que recebe as 3 notas de um aluno por parâmetro e uma letra. Se a letra for A o procedimento calcula a média aritmética das notas do aluno, se for B, a sua média ponderada (pesos: 5, 3 e 2) e se for C, a sua média harmônica. A média calculada também deve retornar por parâmetro.
+
+void main(){
+  
+  double n1 = 5;
+  double n2 = 3;
+  double n3 = 2;
+  var opcao = "C";
+  
+  print("notas: \n $n1 \n $n2 \n $n3");
+  
+  medias(n1, n2, n3, opcao);
+ 
+}
+
+medias (double n1, n2, n3, var op){    
+  double resposta = 0;
+  
+  if(op == "A"){
+    resposta = (n1 + n2 + n3) / 3;
+    
+  } else if(op == "B"){
+    resposta = ((n1 + 10)+(n2 + 10)+(n3 + 10)) / (10 + 10 + 10);
+    
+  } else if(op == "C"){
+    resposta = 3 / (n1 + n2 + n3);
+    
+  }else{
+    print("Opção errada");
+  }
+  
+  print("Média $resposta");
+}
+

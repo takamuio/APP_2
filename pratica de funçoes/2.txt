@@ -1,0 +1,19 @@
+// 2. Escreva uma função que receba dois números inteiros retorne o menor número.
+
+void main(){  
+  int n1 = 3;
+  int n2 = 5;
+  menor(n1, n2);
+ 
+}
+
+menor (int numero1, numero2){   
+  
+  if(numero1 > numero2){
+    print(numero2);  
+  }else{
+    print(numero1);
+  }  
+  
+}
+

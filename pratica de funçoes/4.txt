@@ -1,0 +1,21 @@
+//  Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo. A função deve retornar um valor booleano.
+
+void main(){
+  
+  int numero = -5;  
+  
+  positivoNegativo(numero);
+  
+}
+
+positivoNegativo (int n1){    
+  bool verdadeiro = true;
+  bool falso = false;
+  
+  if(n1 >= 0){
+    print(verdadeiro);
+  } else{
+    print(falso);
+  }
+    
+}

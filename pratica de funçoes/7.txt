@@ -1,0 +1,29 @@
+// Faça uma função que recebe a média final de um aluno por parãmetro e retorna o seu conceito, conforme a tabela abaixo (imagem1);
+
+void main(){
+  
+  double n1 = 8, n2 = 7, n3 = 7;
+  
+  print(media(n1, n2, n3));
+  
+}
+
+media (double n1, n2, n3){ 
+  double resultado = (n1 + n2 + n3) / 3;
+  String a = "A";
+  String b = "B";
+  String c = "C";
+  String d = "D";
+  
+  print(resultado);
+  
+  if(resultado >= 0 && resultado <=4.9){
+    return d;
+  }else if(resultado >= 5.0 && resultado <=6.9){
+    return c;
+  }else if(resultado >= 7.0 && resultado <=8.9){
+    return b;
+  }else if(resultado >= 9.0 && resultado <=10.0){
+    return a;
+  }  
+}

@@ -1,0 +1,21 @@
+// 3. Faça uma função que recebe por parâmetro um valor inteiro e positivo e retorna o valor lógico Verdadeiro caso o valor seja primo e Falso em caso contrário.
+
+void main(){
+  
+  int numero = 8;    
+  
+  print(primo(numero));
+  
+}
+
+primo (int n1){ 
+  bool verdadeiro = true;
+  bool falso = false;
+  
+  for (int j = 2; j < n1; j++) {
+    if (n1 % j == 0){          
+      return falso;
+    }    
+  }
+  return verdadeiro;
+}

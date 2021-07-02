@@ -1,0 +1,15 @@
+// Escreva uma função que recebe, por parâmetro, receba 2 valores inteiros e positivo e retorna o somatório desse valor.
+
+void main(){
+  
+  double n1 = 10, n2 = 11;
+  
+  print(soma(n1, n2));
+  
+}
+
+soma (double n1, n2){ 
+  double resultado = n1 + n2; 
+  
+  return resultado;
+}
